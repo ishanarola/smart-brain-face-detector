@@ -8,7 +8,7 @@ const FaceRecognition = ({ imageUrl, box }) => {
             id="imageInput"
             className="shadow"
             src={imageUrl}
-            width="600px"
+            width="300px"
             height="auto"
             alt="person"
           />

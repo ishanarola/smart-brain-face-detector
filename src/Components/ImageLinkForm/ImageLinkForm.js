@@ -8,7 +8,7 @@ function ImageLinkForm({handleInputChange,handleSubmit}) {
             </p>
             <div className='form fs-5 p-4'>
                 <input type="text" className=" center rounded" name="imgUrlInput" onChange={(e)=>handleInputChange(e)}/>
-                <button stype="submit" className='btn btn-primary btn-submit mx-2 fs-5 px-3'
+                <button stype="submit" className='btn btn-primary btn-submit m-2 fs-5 px-3'
                 onClick={()=>handleSubmit()}
                 >Submit </button>
             </div>

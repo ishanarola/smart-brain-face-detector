@@ -72,7 +72,7 @@ const App = () => {
         handleSubmit={handleSubmit}
       />
       {error && (
-        <span className="text-center mt-3 fs-3 fw-medium text-warning">
+        <span className="text-center mt-3 fs-4 fw-medium text-warning">
           {error}
         </span>
       )}
