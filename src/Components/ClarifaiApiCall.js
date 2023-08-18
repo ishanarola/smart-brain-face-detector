@@ -1,4 +1,5 @@
 export const ClarifaiApiCall = (imageUrl) => {
+  // const PAT = "554c6b80fc5d464d9589908b2dc1a5e3";
   const PAT = "284c9690ae0c43c4a3e95add289de768";
   const USER_ID = "85datb9523in";
   const APP_ID = "smart_brain_01";
